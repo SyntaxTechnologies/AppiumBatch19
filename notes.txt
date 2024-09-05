@@ -1,0 +1,61 @@
+download android studio
+download Appium server
+set environment variable for android sdk
+type adb -
+
+android - .apk
+IOS - .app
+
+write automation script in computer - run the script on phone
+to connect the script with the phone, I need intermediator call Appium server
+
+to write the code - intelij IDE
+framework - cucumber
+tool - Appium
+
+dependency we have to add - cucumber, Appium, selenium,
+reload the project
+
+delete main
+
+create resources under test
+
+add - features, config in resources
+add - pages, steps, runners, utils in java
+
+how to create a phone - AVD - emulator
+open the project in android studio
+select device manager
+click on + icon to create device
+select phone from the list
+select OS from the list
+name the phone and finish
+
+how to validate device in cmd - adb devices
+how to install app in mobile - drag and drop / adb install TestApp.apk
+
+to write the test case, we have to create feature file
+
+2 unique identities of any app
+app package
+app activity
+
+the values of app package and app activity you always  get from dev
+ to execute the script, appium server should start
+ app package and app activity value must be correct
+
+in web - inspect element
+in mobile - UI automator viewer/Appium inspector
+
+where to find
+in sdk -> tool -> bin -> uiautomatorviewer batch file
+
+if tools folder is not available,
+go to android studio -> settings -> SDK manager
+select SDK tools -> obsolete package -> tools -> download
+
+//*[@text='Username']
+
+
+
+
